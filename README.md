@@ -164,8 +164,8 @@ PCodex 支持直接在应用内的 **供应商与认证** 中添加和管理自�
   <tr>
     <td align="center" width="20%">
       <a href="https://github.com/muchenkezhan">
-        <img src="https://github.com/muchenkezhan.png?size=120" width="96" alt="muchenkezhan"><br>
-        <sub><strong>muchenkezhan</strong></sub>
+        <img src="https://github.com/muchenkezhan.png?size=120" width="96" alt="秋知德雨"><br>
+        <sub><strong>秋知德雨</strong></sub>
       </a>
       <br>
       <sub>项目负责人 · 产品架构</sub>
