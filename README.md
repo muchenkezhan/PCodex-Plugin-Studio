@@ -113,6 +113,17 @@ flowchart LR
 > [!NOTE]
 > 当前发布目标为 **Windows x64**。部分插件模板需要对应宿主软件、SDK 或开发工具链，PCodex 会在开发环境页面显示检测结果。
 
+## AI 模型配置
+
+PCodex 支持直接在应用内的 **供应商与认证** 中添加和管理自定义模型配置，也会读取本机 Claude Code、Codex 和 Gemini CLI 的现有配置文件。你也可以使用 [CC Switch](https://github.com/farion1231/cc-switch/releases) 统一添加、管理和切换模型供应商配置：
+
+1. 从 CC Switch 的 Releases 页面下载并安装适合当前系统的版本。
+2. 在 CC Switch 中分别完成 Claude、Codex 或 Gemini 的供应商配置。
+3. 启动 PCodex 并选择对应的 AI Runtime，PCodex 会读取该工具已经写入本机的配置文件。
+
+> [!TIP]
+> CC Switch 默认管理 `~/.claude/`、`~/.codex/` 和 `~/.gemini/`。如果在 CC Switch 中修改了配置目录，请确保对应 CLI Runtime 使用相同目录。
+
 ## 安全设计
 
 - AI 对项目文件的修改必须经过 Diff 审查和权限确认。
@@ -138,7 +149,7 @@ flowchart LR
 <details>
   <summary><strong>使用 AI 功能需要自己配置模型吗？</strong></summary>
   <br>
-  不同 Runtime 的认证方式不同。PCodex 为 Codex（GPT）、Claude、Gemini 和 Grok 提供独立配置与运行体验，并支持本机登录状态、受管配置和 OpenAI Compatible Provider；应用内会显示对应配置入口与状态。
+  不同 Runtime 的认证方式不同。PCodex 为 Codex（GPT）、Claude、Gemini 和 Grok 提供独立配置与运行体验，并支持本机登录状态、受管配置和 OpenAI Compatible Provider；你可以直接在应用内的 <strong>供应商与认证</strong> 中添加和管理自定义配置。Claude、Codex 和 Gemini 配置也可以通过 <a href="https://github.com/farion1231/cc-switch/releases">CC Switch</a> 统一管理，PCodex 会读取对应 Runtime 已写入本机的配置文件。
 </details>
 
 <details>
