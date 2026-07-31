@@ -61,7 +61,43 @@
       <p>集中检查 Node.js、npm、Python、Go、.NET SDK、MSBuild、Visual Studio C++ 与平台 SDK，快速定位缺失依赖，并为构建、部署和调试做好准备。</p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Skills 专业能力扩展</h3>
+      <p>支持按项目使用可复用的 Skills，将领域知识、工程规范和任务工作流带入 AI 编程过程。</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>MCP 工具与上下文接入</h3>
+      <p>支持 Model Context Protocol（MCP），让 AI Runtime 接入外部工具、资源与服务，扩展可执行能力和项目上下文。</p>
+    </td>
+  </tr>
 </table>
+
+## 软件界面
+
+### 模板中心
+
+按宿主软件、技术栈和项目类型选择专业成品模板，快速创建具备完整工程结构的项目。
+
+<p align="center">
+  <img src="screenshots/template-center.png" alt="PCodex 模板中心界面" width="100%">
+</p>
+
+### 代码工作台
+
+在同一界面管理项目文件、编辑代码、运行终端任务并查看开发状态。
+
+<p align="center">
+  <img src="screenshots/code-workbench.png" alt="PCodex 代码工作台界面" width="100%">
+</p>
+
+### Codex 原生工作区
+
+通过独立 Codex Runtime 进行连续对话、项目分析与编程，并保留原生模型体验。
+
+<p align="center">
+  <img src="screenshots/codex-runtime.png" alt="PCodex Codex 原生工作区界面" width="100%">
+</p>
 
 ## 工作流
 
@@ -83,6 +119,8 @@ flowchart LR
 | --- | --- |
 | 原生 AI Runtime | Codex（GPT）、Claude、Gemini、Grok |
 | 扩展模型接入 | OpenAI Compatible Provider |
+| Skills | 可复用的领域知识、工程规范与任务工作流 |
+| MCP | Model Context Protocol 工具、资源与服务接入 |
 | Adobe | Photoshop、Illustrator、InDesign、Adobe Suite CEP |
 | 设计与 CAD | CorelDRAW、AutoCAD、SketchUp |
 | 三维内容 | Blender、Maya、3ds Max、Cinema 4D |
@@ -97,6 +135,8 @@ flowchart LR
 - **专业模板快速起步**：从可直接开发的项目结构开始，省去重复配置工程、宿主适配和基础任务的时间。
 - **一键完成宿主联调**：构建插件、部署到宿主目录并启动宿主软件，在同一工作台查看状态与输出。
 - **模型能力原生保留**：Codex（GPT）、Claude、Gemini、Grok 使用各自独立 Runtime，不把专业编程体验压缩成普通 API 对话。
+- **Skills 按项目复用**：为不同项目加载对应的领域知识、工程规范和任务工作流，让 AI 更贴合实际开发要求。
+- **MCP 标准接入**：通过 Model Context Protocol 连接外部工具、资源与服务，扩展 AI Runtime 的上下文和执行能力。
 - **AI 改动看得见**：所有文件修改先审查再应用，不直接静默覆盖项目内容。
 - **按项目自动准备能力**：识别项目结构、工具链和宿主平台，提供对应任务与上下文。
 - **多会话互不干扰**：不同项目和对话分别维护 Runtime、工作区和任务状态。
