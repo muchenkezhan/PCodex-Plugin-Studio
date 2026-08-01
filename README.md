@@ -21,6 +21,7 @@
   <a href="https://github.com/muchenkezhan/PCodex-Plugin-Studio/issues">
     <img alt="问题反馈" src="https://img.shields.io/badge/%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88-f59e0b?style=for-the-badge&logo=github&logoColor=white">
   </a>
+  <img alt="PCodex 官方交流群 1058059882" src="https://img.shields.io/badge/QQ%E5%AE%98%E6%96%B9%E4%BA%A4%E6%B5%81%E7%BE%A4-1058059882-12B7F5?style=for-the-badge&logo=tencentqq&logoColor=white">
 </p>
 
 </div>
@@ -240,6 +241,7 @@ PCodex 支持直接在应用内的 **供应商与认证** 中添加和管理自�
 | 项目主页 | [github.com/muchenkezhan/PCodex-Plugin-Studio](https://github.com/muchenkezhan/PCodex-Plugin-Studio) |
 | 最新版本 | [Releases / Latest](https://github.com/muchenkezhan/PCodex-Plugin-Studio/releases/latest) |
 | 问题反馈 | [GitHub Issues](https://github.com/muchenkezhan/PCodex-Plugin-Studio/issues) |
+| 官方交流群 | QQ 群 `1058059882` |
 
 ---
 
